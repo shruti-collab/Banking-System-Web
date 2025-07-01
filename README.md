@@ -6,7 +6,8 @@ Designed with a **glassmorphism UI**, responsive navbar, and real-time dashboard
 
 ## 🌐 Live Preview
 
-_(Optional: add link if you deploy on Render or GitHub Pages)_
+(not deployed yet)
+
 
  🚀 Features
 
