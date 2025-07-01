@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+    <h2>Welcome, {{ username }}</h2>
+    <p>Balance: ₹{{ balance }}</p>
+    <form method="POST" action="/deposit">
+        <input type="number" name="amount" placeholder="Amount to Deposit" required>
+        <button type="submit">Deposit</button>
+    </form>
+    <form method="POST" action="/withdraw">
+        <input type="number" name="amount" placeholder="Amount to Withdraw" required>
+        <button type="submit">Withdraw</button>
+    </form>
+    <form method="GET" action="/logout">
+        <button type="submit">Logout</button>
+    </form>
+{% endblock %}
